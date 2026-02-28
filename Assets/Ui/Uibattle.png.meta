@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: acaedfb2c95b41847a1468a440d72585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7313157818436245616
+    second: Uibattle_0
+  - first:
+      213: -5393002350386886496
+    second: Uibattle_1
+  - first:
+      213: 5011620170510647529
+    second: Uibattle_2
+  - first:
+      213: -1448614182519068042
+    second: Uibattle_3
+  - first:
+      213: 6175520168431041670
+    second: Uibattle_4
+  - first:
+      213: 1396582268309629137
+    second: Uibattle_5
+  - first:
+      213: -5585739212127783445
+    second: Uibattle_6
+  - first:
+      213: 2178385394746415135
+    second: Uibattle_7
+  - first:
+      213: 3042779855509929564
+    second: Uibattle_8
+  - first:
+      213: -8582280437377993968
+    second: Uibattle_9
+  - first:
+      213: -3885505991767416190
+    second: Uibattle_10
+  - first:
+      213: -345717579147881135
+    second: Uibattle_11
+  - first:
+      213: 4275965212856692707
+    second: Uibattle_12
+  - first:
+      213: 875649994996731541
+    second: Uibattle_13
+  - first:
+      213: -8556385573989346694
+    second: Uibattle_14
+  - first:
+      213: 7423949789294477072
+    second: Uibattle_15
+  - first:
+      213: -6193155636003602649
+    second: Uibattle_16
+  - first:
+      213: 5140168291258145047
+    second: Uibattle_17
+  - first:
+      213: -5018621385360561751
+    second: Uibattle_18
+  - first:
+      213: 880266660238647401
+    second: Uibattle_19
+  - first:
+      213: 6839238024674931033
+    second: Uibattle_20
+  - first:
+      213: -7361241253161272097
+    second: Uibattle_21
+  - first:
+      213: -8189563900011393549
+    second: Uibattle_22
+  - first:
+      213: 2341326128279435393
+    second: Uibattle_23
+  - first:
+      213: -7197772913910240337
+    second: Uibattle_24
+  - first:
+      213: -8925916347695367043
+    second: Uibattle_25
+  - first:
+      213: 7813936335975918754
+    second: Uibattle_26
+  - first:
+      213: -8525792546905007844
+    second: Uibattle_27
+  - first:
+      213: -3431639953720016710
+    second: Uibattle_28
+  - first:
+      213: 6641519599270294638
+    second: Uibattle_29
+  - first:
+      213: 8359371497677404053
+    second: Uibattle_30
+  - first:
+      213: -5554740968508124379
+    second: Uibattle_31
+  - first:
+      213: -6220545655962174602
+    second: Uibattle_32
+  - first:
+      213: 3331397611721892720
+    second: Uibattle_33
+  - first:
+      213: -7342575796043988342
+    second: Uibattle_34
+  - first:
+      213: -7694447715848579285
+    second: Uibattle_35
+  - first:
+      213: -4671273579201351090
+    second: Uibattle_36
+  - first:
+      213: -6113018632588033968
+    second: Uibattle_37
+  - first:
+      213: -5493292182372076412
+    second: Uibattle_38
+  - first:
+      213: -5242891495585165420
+    second: Uibattle_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Uibattle_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 895
+        width: 113
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07853420a4e8d7560800000000000000
+      internalID: 7313157818436245616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 780
+        width: 113
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8c7588fe43825b0800000000000000
+      internalID: -5393002350386886496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 895
+        width: 249
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0487c0ef9dc8540800000000000000
+      internalID: 5011620170510647529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_3
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 895
+        width: 136
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67aab5a731d75ebe0800000000000000
+      internalID: -1448614182519068042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_4
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 874
+        width: 154
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cb796bfdad3b550800000000000000
+      internalID: 6175520168431041670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 683
+        width: 113
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d864327c28a16310800000000000000
+      internalID: 1396582268309629137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 685
+        width: 246
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be53725f7c77b72b0800000000000000
+      internalID: -5585739212127783445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 779
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1852c599fd2b3e10800000000000000
+      internalID: 2178385394746415135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 685
+        width: 156
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e326148202a3a20800000000000000
+      internalID: 3042779855509929564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_9
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 683
+        width: 137
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013fc4fb96d95e880800000000000000
+      internalID: -8582280437377993968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 682
+        width: 668
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2822d0403e8e31ac0800000000000000
+      internalID: -3885505991767416190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 337
+        width: 540
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155584681b3c33bf0800000000000000
+      internalID: -345717579147881135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 333
+        width: 889
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef2040c4b7475b30800000000000000
+      internalID: 4275965212856692707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 1436
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e4a53f70fe62c00800000000000000
+      internalID: 875649994996731541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_27
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 303
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19dd05a9dc4ea980800000000000000
+      internalID: -8525792546905007844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_36
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 35
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42390fdd6d4c2fb0800000000000000
+      internalID: -4671273579201351090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_37
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0500f3b11f13a2ba0800000000000000
+      internalID: -6113018632588033968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_38
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48438466dd7e3c3b0800000000000000
+      internalID: -5493292182372076412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibattle_39
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fcab976f18d37b0800000000000000
+      internalID: -5242891495585165420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0d6e1d0d767255c4a92505c3f2685d46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Uibattle_0: 7313157818436245616
+      Uibattle_1: -5393002350386886496
+      Uibattle_10: -3885505991767416190
+      Uibattle_11: -345717579147881135
+      Uibattle_12: 4275965212856692707
+      Uibattle_13: 875649994996731541
+      Uibattle_14: -8556385573989346694
+      Uibattle_15: 7423949789294477072
+      Uibattle_16: -6193155636003602649
+      Uibattle_17: 5140168291258145047
+      Uibattle_18: -5018621385360561751
+      Uibattle_19: 880266660238647401
+      Uibattle_2: 5011620170510647529
+      Uibattle_20: 6839238024674931033
+      Uibattle_21: -7361241253161272097
+      Uibattle_22: -8189563900011393549
+      Uibattle_23: 2341326128279435393
+      Uibattle_24: -7197772913910240337
+      Uibattle_25: -8925916347695367043
+      Uibattle_26: 7813936335975918754
+      Uibattle_27: -8525792546905007844
+      Uibattle_28: -3431639953720016710
+      Uibattle_29: 6641519599270294638
+      Uibattle_3: -1448614182519068042
+      Uibattle_30: 8359371497677404053
+      Uibattle_31: -5554740968508124379
+      Uibattle_32: -6220545655962174602
+      Uibattle_33: 3331397611721892720
+      Uibattle_34: -7342575796043988342
+      Uibattle_35: -7694447715848579285
+      Uibattle_36: -4671273579201351090
+      Uibattle_37: -6113018632588033968
+      Uibattle_38: -5493292182372076412
+      Uibattle_39: -5242891495585165420
+      Uibattle_4: 6175520168431041670
+      Uibattle_5: 1396582268309629137
+      Uibattle_6: -5585739212127783445
+      Uibattle_7: 2178385394746415135
+      Uibattle_8: 3042779855509929564
+      Uibattle_9: -8582280437377993968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
