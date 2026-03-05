@@ -1,22 +1,22 @@
-name: Get Unity License
+name: Unity WebGL Build
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  getlicense:
+  buildWebGL:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Get Unity license
-        uses: game-ci/unity-request-activation-file@v2
-        id: getManualLicenseFile
+      - name: Build WebGL
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_LICENSE_TYPE: Personal
         with:
           unityVersion: 6000.2.13f1
-
-      - name: Upload .alf file
-        uses: actions/upload-artifact@v4
-        with:
-          name: manual-license-file
-          path: ${{ steps.getManualLicenseFile.outputs.filePath }}
+          targetPlatform: WebGL
