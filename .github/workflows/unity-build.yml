@@ -8,6 +8,7 @@ on:
 jobs:
   buildWebGL:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -20,3 +21,25 @@ jobs:
         with:
           unityVersion: 6000.2.13f1
           targetPlatform: WebGL
+
+      - name: Upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: WebGLBuild
+          path: build/WebGL
+
+  deploy:
+    needs: buildWebGL
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: WebGLBuild
+          path: build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
