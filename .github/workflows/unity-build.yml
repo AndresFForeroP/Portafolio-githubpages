@@ -13,14 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cache Library
-        uses: actions/cache@v3
-        with:
-          path: Library
-          key: Library-WebGL
-          restore-keys: |
-            Library-
-
       - name: Build WebGL
         uses: game-ci/unity-builder@v4
         env:
@@ -29,9 +21,3 @@ jobs:
         with:
           unityVersion: 6000.2.13f1
           targetPlatform: WebGL
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: WebGL-Build
-          path: build/WebGL
