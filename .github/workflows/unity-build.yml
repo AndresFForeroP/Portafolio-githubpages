@@ -7,6 +7,7 @@ on:
 
 jobs:
   buildWebGL:
+    name: Build for WebGL 🖥️
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,13 +37,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: WebGLBuild
-          path: build/WebGL/WebGL  # ← game-ci genera esta subcarpeta extra
+          path: build/WebGL/WebGL 
 
   deploy:
+    name: Deploy to Github Pages 🚀
     needs: buildWebGL
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # ← esto faltaba, causa el error 403
+      contents: write
 
     steps:
       - uses: actions/download-artifact@v4
@@ -53,5 +55,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}  
+          external_repository: AndresFForeroP/AndresFForeroP.github.io 
+          publish_branch: main  
           publish_dir: build
+          force_orphan: true
