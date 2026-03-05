@@ -12,12 +12,11 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build WebGL
-        uses: game-ci/unity-builder@v4
+        uses: game-ci/unity-builder@v4.4.0
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_LICENSE_TYPE: Personal
         with:
           unityVersion: 6000.2.13f1
           targetPlatform: WebGL
