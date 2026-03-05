@@ -10,6 +10,7 @@ public class LanguageChanger : MonoBehaviour
     [SerializeField] Button SpanishButton;
     [SerializeField] GameObject LanguageUI;
     [SerializeField] AudioSource Sountrack;
+    [SerializeField] AudioSource SoundButton;
     CanvasGroup canvasGroup;
     void Start()
     {
@@ -20,11 +21,13 @@ public class LanguageChanger : MonoBehaviour
     public void SetEnglish()
     {
         StartCoroutine(ChangeLocale("en"));
+        SoundButton.Play();
     }
 
     public void SetSpanish()
     {
         StartCoroutine(ChangeLocale("es"));
+        SoundButton.Play();
     }
 
     IEnumerator ChangeLocale(string code)
@@ -43,7 +46,7 @@ public class LanguageChanger : MonoBehaviour
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
         Sequence seq = DOTween.Sequence();
-        seq.AppendInterval(0.5f).Join(canvasGroup.DOFade(0.1f,0.5f)).OnComplete(GoToGame);
+        seq.Join(canvasGroup.DOFade(0.01f,1f)).OnComplete(GoToGame);
     }
     public void GoToGame()
     {
