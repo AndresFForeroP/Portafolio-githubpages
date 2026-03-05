@@ -8,6 +8,8 @@ on:
 jobs:
   buildWebGL:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -34,11 +36,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: WebGLBuild
-          path: build/WebGL
+          path: build/WebGL/WebGL  # ← game-ci genera esta subcarpeta extra
 
   deploy:
     needs: buildWebGL
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ← esto faltaba, causa el error 403
 
     steps:
       - uses: actions/download-artifact@v4
