@@ -14,22 +14,15 @@ public class LanguageChanger : MonoBehaviour
     CanvasGroup canvasGroup;
     void Start()
     {
-        EnglishButton.onClick.AddListener(SetEnglish);
-        SpanishButton.onClick.AddListener(SetSpanish);
+        EnglishButton.onClick.AddListener(()=>{SetLanguage("en");});
+        SpanishButton.onClick.AddListener(()=>{SetLanguage("es");});
         canvasGroup = LanguageUI.GetComponent<CanvasGroup>();
     }
-    public void SetEnglish()
+    public void SetLanguage(string idlanguage)
     {
-        StartCoroutine(ChangeLocale("en"));
+        StartCoroutine(ChangeLocale(idlanguage));
         SoundButton.Play();
     }
-
-    public void SetSpanish()
-    {
-        StartCoroutine(ChangeLocale("es"));
-        SoundButton.Play();
-    }
-
     IEnumerator ChangeLocale(string code)
     {
         yield return LocalizationSettings.InitializationOperation;

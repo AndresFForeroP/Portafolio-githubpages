@@ -16,7 +16,7 @@ public class RpgCarGameScript : MonoBehaviour
     }
     void Playbuttonclick()
     {
-        Application.OpenURL("https://andresforero.itch.io/car-game-rpg");
+        // Application.OpenURL("https://andresforero.itch.io/car-game-rpg");
     }
     void Backbuttonclick()
     {
