@@ -35,7 +35,21 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 19254991642624
-    m_Localized: BIENVENIDOS A MI PORTAFOLIO INTERACTIVA!
+    m_Localized: BIENVENIDOS A MI PORTAFOLIO INTERACTIVO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1275825985937408
+    m_Localized: "RPG de autos en 2D con vista top-down desarrollado en Unity, donde
+      las colisiones activan un sistema de combate con dados. Creado para practicar
+      programaci\xF3n de gameplay, f\xEDsicas y sistemas de animaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279795366191104
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279845253242880
+    m_Localized: Repositorio
     m_Metadata:
       m_Items: []
   references:

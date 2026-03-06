@@ -35,6 +35,18 @@ MonoBehaviour:
     m_Key: textobienvenida
     m_Metadata:
       m_Items: []
+  - m_Id: 1275825985937408
+    m_Key: descripcioncargamerpg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279795366191104
+    m_Key: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279845253242880
+    m_Key: Repositorio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
