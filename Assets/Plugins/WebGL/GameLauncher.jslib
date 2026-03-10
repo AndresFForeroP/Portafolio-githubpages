@@ -55,34 +55,49 @@ mergeInto(LibraryManager.library, {
     topBar.style.cssText = `
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
+      gap: 8px;
       margin-bottom: 10px;
     `;
 
-    var title = document.createElement('span');
-    title.innerHTML = '🎮';
-    title.style.cssText = `
-      color: #7df;
-      font-size: 20px;
-      text-shadow: 0 0 8px #3af;
-    `;
-
-    var closeBtn = document.createElement('button');
-    closeBtn.innerText = '✕  CERRAR';
-    closeBtn.style.cssText = `
-      padding: 5px 16px;
+    var btnStyle = `
+      width: 30px;
+      height: 30px;
       background: transparent;
       border: 1px solid #3af;
       color: #7df;
       cursor: pointer;
-      font-size: 12px;
-      font-family: 'Segoe UI', monospace;
-      letter-spacing: 2px;
+      font-size: 16px;
       border-radius: 3px;
       box-shadow: 0 0 6px #3af, inset 0 0 6px rgba(0,140,255,0.1);
       transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
     `;
+
+    var openBtn = document.createElement('button');
+    openBtn.innerHTML = '⛶';
+    openBtn.style.cssText = btnStyle;
+    openBtn.title = 'Abrir en pestaña nueva';
+    openBtn.onmouseover = function() {
+      this.style.background = 'rgba(0,140,255,0.2)';
+      this.style.boxShadow  = '0 0 12px #3af, inset 0 0 10px rgba(0,140,255,0.2)';
+    };
+    openBtn.onmouseout = function() {
+      this.style.background = 'transparent';
+      this.style.boxShadow  = '0 0 6px #3af, inset 0 0 6px rgba(0,140,255,0.1)';
+    };
+    openBtn.onclick = function() {
+      window.open(url, '_blank');
+    };
+
+    var closeBtn = document.createElement('button');
+    closeBtn.innerHTML = '✕';
+    closeBtn.style.cssText = btnStyle;
+    closeBtn.title = 'Cerrar';
     closeBtn.onmouseover = function() {
       this.style.background = 'rgba(0,140,255,0.2)';
       this.style.boxShadow  = '0 0 12px #3af, inset 0 0 10px rgba(0,140,255,0.2)';
@@ -95,7 +110,7 @@ mergeInto(LibraryManager.library, {
       document.body.removeChild(overlay);
     };
 
-    topBar.appendChild(title);
+    topBar.appendChild(openBtn);
     topBar.appendChild(closeBtn);
 
     var iframe = document.createElement('iframe');
