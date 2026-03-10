@@ -11,7 +11,7 @@ public class GameLauncher : MonoBehaviour
 #if UNITY_WEBGL && !UNITY_EDITOR
         OpenGameInOverlay(gameUrl);
 #else
-        Application.OpenURL(gameUrl); // En editor abre en navegador
+        Application.OpenURL(gameUrl);
 #endif
     }
 }

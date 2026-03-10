@@ -15,14 +15,13 @@ mergeInto(LibraryManager.library, {
       justify-content: center;
     `;
 
-    /* ── Contenedor principal con borde neón ── */
     var container = document.createElement('div');
     container.style.cssText = `
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 960px;
-      height: 580px;
+      width: 980px;
+      height: 660px;
       background: linear-gradient(160deg, #020d1f 60%, #041830 100%);
       border: 2px solid #3af;
       border-radius: 6px;
@@ -35,16 +34,15 @@ mergeInto(LibraryManager.library, {
       position: relative;
     `;
 
-    /* ── Esquinas decorativas ── */
     ['top-left','top-right','bottom-left','bottom-right'].forEach(function(pos) {
       var corner = document.createElement('div');
-      var isTop    = pos.includes('top');
-      var isLeft   = pos.includes('left');
+      var isTop  = pos.includes('top');
+      var isLeft = pos.includes('left');
       corner.style.cssText = `
         position: absolute;
         width: 14px; height: 14px;
-        ${isTop    ? 'top: -2px'    : 'bottom: -2px'};
-        ${isLeft   ? 'left: -2px'   : 'right: -2px'};
+        ${isTop  ? 'top: -2px'  : 'bottom: -2px'};
+        ${isLeft ? 'left: -2px' : 'right: -2px'};
         border-color: #7df;
         border-style: solid;
         border-width: ${isTop ? '3px' : '0'} ${isLeft ? '0' : '3px'} ${isTop ? '0' : '3px'} ${isLeft ? '3px' : '0'};
@@ -53,7 +51,6 @@ mergeInto(LibraryManager.library, {
       container.appendChild(corner);
     });
 
-    /* ── Barra superior con título y botón cerrar ── */
     var topBar = document.createElement('div');
     topBar.style.cssText = `
       width: 100%;
@@ -64,12 +61,10 @@ mergeInto(LibraryManager.library, {
     `;
 
     var title = document.createElement('span');
-    title.innerText = '▶  MINI GAME';
+    title.innerHTML = '🎮';
     title.style.cssText = `
       color: #7df;
-      font-family: 'Segoe UI', monospace;
-      font-size: 13px;
-      letter-spacing: 3px;
+      font-size: 20px;
       text-shadow: 0 0 8px #3af;
     `;
 
@@ -103,16 +98,17 @@ mergeInto(LibraryManager.library, {
     topBar.appendChild(title);
     topBar.appendChild(closeBtn);
 
-    /* ── iframe del juego ── */
     var iframe = document.createElement('iframe');
     iframe.src = url;
+    iframe.scrolling = 'no';
     iframe.style.cssText = `
-      width: 100%;
-      flex: 1;
+      width: 960px;
+      height: 600px;
       border: 1px solid #1af;
       border-radius: 4px;
       box-shadow: 0 0 10px rgba(0,140,255,0.3), inset 0 0 20px rgba(0,0,30,0.5);
       background: #000;
+      overflow: hidden;
     `;
     iframe.allowFullscreen = true;
 
