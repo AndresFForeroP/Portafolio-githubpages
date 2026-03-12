@@ -22,14 +22,14 @@ public class Menu2 : MonoBehaviour
     }
     void Clicklinkedin()
     {
-        // Application.OpenURL("https://www.linkedin.com/in/andres-forero-p%C3%A9rez-34a4563aa/");
+        Application.OpenURL("https://www.linkedin.com/in/andres-forero-p%C3%A9rez-34a4563aa/");
     }
     void Clickgithub()
     {
-        // Application.OpenURL("https://github.com/AndresFForeroP");
+        Application.OpenURL("https://github.com/AndresFForeroP");
     }
     void Clickcv()
     {
-        // Application.OpenURL("https://drive.google.com/file/d/1CPA4CSkeAdFm0j9H-XRuTiIkAvtWnEs3/view?usp=sharing");
+        Application.OpenURL("https://drive.google.com/file/d/1CPA4CSkeAdFm0j9H-XRuTiIkAvtWnEs3/view?usp=sharing");
     }
 }

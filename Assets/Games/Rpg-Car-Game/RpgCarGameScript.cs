@@ -25,6 +25,6 @@ public class RpgCarGameScript : MonoBehaviour
     }
     void RepositoryButtonclick()
     {
-        // Application.OpenURL("https://github.com/AndresFForeroP/Rpg-Car-Game-2D-Unity");
+        Application.OpenURL("https://github.com/AndresFForeroP/Rpg-Car-Game-2D-Unity");
     }
 }
