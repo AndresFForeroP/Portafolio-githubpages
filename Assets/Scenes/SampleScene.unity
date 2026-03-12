@@ -742,6 +742,7 @@ MonoBehaviour:
   ButtonGithub: {fileID: 1739698632}
   ButtonCv: {fileID: 35384442}
   ButtonGameInfo: {fileID: 956852927}
+  SoundButton: {fileID: 1415166308}
 --- !u!1 &200305159
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +983,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9b57ddf87b9e5984ba385f02cbf8606f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4b818c5e0f10f8439a1900448f4fe57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3429,15 +3430,15 @@ RectTransform:
   m_GameObject: {fileID: 989319180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.119814575, y: 1.1627163, z: 0.119814575}
+  m_LocalScale: {x: 0.13146056, y: 1.2757323, z: 0.13146056}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1680847880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.055000003, y: 0.8535928}
-  m_AnchorMax: {x: 0.11847917, y: 0.9620001}
-  m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: 888, y: -17}
+  m_AnchorMin: {x: 0.050520834, y: 0.85}
+  m_AnchorMax: {x: 0.1206875, y: 0.9710001}
+  m_AnchoredPosition: {x: -1, y: 0.5}
+  m_SizeDelta: {x: 875, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989319182
 MonoBehaviour:
@@ -3459,7 +3460,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7d11c7f03d5f26941916e71318607df6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e77104ec7e78c2e46a28e6c8906ff892, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3801,6 +3802,7 @@ MonoBehaviour:
   RepositoryButton: {fileID: 1679575445}
   RpgCarGameObject: {fileID: 1091582555}
   ButtonsGames: {fileID: 956852927}
+  SoundButton: {fileID: 1415166308}
 --- !u!1 &1141552027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5050,7 +5052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8dc793c0f0205548956a450636f74e5, type: 2}
+  m_Sprite: {fileID: 21300000, guid: 153ae78d205a6c2468d9265d24d449ab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6842,6 +6844,7 @@ MonoBehaviour:
   RpgCarGameButton: {fileID: 1141552029}
   ButtonsGames: {fileID: 956852927}
   CarGameRpgObject: {fileID: 1091582555}
+  SoundButton: {fileID: 1415166308}
 --- !u!1 &1877411617
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class RpgCarGameScript : MonoBehaviour
     [SerializeField] Button RepositoryButton;
     [SerializeField] GameObject RpgCarGameObject;
     [SerializeField] GameObject ButtonsGames;
+    [SerializeField] AudioSource SoundButton;
     void Start()
     {
         BackButton.onClick.AddListener(Backbuttonclick);
@@ -16,15 +17,17 @@ public class RpgCarGameScript : MonoBehaviour
     }
     void Playbuttonclick()
     {
-        // Application.OpenURL("https://andresforero.itch.io/car-game-rpg");
+        SoundButton.Play();
     }
     void Backbuttonclick()
     {
         RpgCarGameObject.SetActive(false);
         ButtonsGames.SetActive(true);
+        SoundButton.Play();
     }
     void RepositoryButtonclick()
     {
         Application.OpenURL("https://github.com/AndresFForeroP/Rpg-Car-Game-2D-Unity");
+        SoundButton.Play();
     }
 }

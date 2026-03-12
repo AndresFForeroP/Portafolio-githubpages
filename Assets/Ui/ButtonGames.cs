@@ -7,6 +7,7 @@ public class ButtonGames : MonoBehaviour
     [SerializeField] Button RpgCarGameButton;
     [SerializeField] GameObject ButtonsGames;
     [SerializeField] GameObject CarGameRpgObject;
+    [SerializeField] AudioSource SoundButton;
     
     void Start()
     {
@@ -16,6 +17,7 @@ public class ButtonGames : MonoBehaviour
     {
         ButtonsGames.SetActive(false);
         CarGameRpgObject.SetActive(true);
+        SoundButton.Play();
     }
 
 }
